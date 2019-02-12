@@ -1,7 +1,7 @@
 # HIGH-QUALITY-MONOCULAR-DEPTH-ESTIMATION
 Code for paper "HIGH QUALITY MONOCULAR DEPTH ESTIMATION VIA MULTI-SCALE NETWORK AND DETAIL-PRESERVING OBJECTIVE"
 
-1. To trian the model with the full loss of the paper on the NYU Depth V2 dataset, 
+1. To trian the model with the full loss of the paper on the NYU Depth V2 dataset, \
 python train.py \
 	--dataset nyu_depth_v2 \
 	--train_file "../filenames/nyu_depth_v2_train_even.txt" \
@@ -27,9 +27,9 @@ python train.py \
 	--batch_norm_decay 0.9997 \
 	--l2_regularizer 1e-4 \
  
-  2. To evaluate on the model
-  python test_nyu_depth_v2.py --process_id_for_evaluation pid(12582)
+  2. To evaluate on the model, \
+  python test_nyu_depth_v2.py --process_id_for_evaluation pid(12582) \
   You can download the trained model and results of the testset from https://mega.nz/#F!7ypiyIoa!vKgyTXSgxwieY0o8u9pksQ.
   
-  Test performance:
+  Test performance: \
   |abs_rel: 0.127 |sq_rel: 0.088 |rmse: 0.468 |rmse_log: 0.165 |log10: 0.054 |acc1: 0.841 |acc2: 0.967 |acc3: 0.993
