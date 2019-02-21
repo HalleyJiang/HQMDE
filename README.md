@@ -1,7 +1,7 @@
-# HIGH-QUALITY-MONOCULAR-DEPTH-ESTIMATION
-Tensorflow code for paper **HIGH QUALITY MONOCULAR DEPTH ESTIMATION VIA MULTI-SCALE NETWORK AND DETAIL-PRESERVING OBJECTIVE**
+# Tensorflow implementation for HIGH-QUALITY-MONOCULAR-DEPTH-ESTIMATION
+**HIGH QUALITY MONOCULAR DEPTH ESTIMATION VIA MULTI-SCALE NETWORK AND DETAIL-PRESERVING OBJECTIVE**
 
-## To trian the model with the full loss of the paper on the NYU Depth V2 dataset, \
+1. To trian the model with the full loss of the paper on the NYU Depth V2 dataset, \
 python train.py \
 		--dataset nyu_depth_v2 \
 		--train_file "../filenames/nyu_depth_v2_train_even.txt" \
