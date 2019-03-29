@@ -20,7 +20,7 @@ parser = argparse.ArgumentParser(description="Evaluation code for nyu_depth_v2 o
 parser.add_argument("--output_stride",
                     type=int,
                     default=16,
-                    help="process_id_of_the_trained_model.")
+                    help="output stride for testing.")
 ########################################################################################################################
 #  checkpoint path to restore trained model from, and the process id of the model
 parser.add_argument("--checkpoint_path",
