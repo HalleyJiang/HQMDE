@@ -1,5 +1,5 @@
 # Tensorflow implementation for HIGH-QUALITY-MONOCULAR-DEPTH-ESTIMATION
-**High Quality Monocular Depth Estimation via a Multi-scale Netowrk and Detail-perserving Objective**
+**High Quality Monocular Depth Estimation via a Multi-scale Netowrk and Detail-perserving Objective(https://ieeexplore.ieee.org/document/8803168)**
 
 1. To trian the model with the full loss of the paper on the NYU Depth V2 dataset, \
 python train.py \
@@ -28,7 +28,7 @@ python train.py \
  
   2. To evaluate on the model, \
   python test_nyu_depth_v2.py --process_id_for_evaluation pid(12582) \
-  You can download the trained model and results of the testset from Badidu NetDisk:
+  You can download the trained model and results of the testset from Badidu NetDisk, \
   link: https://pan.baidu.com/s/1tihXtR72Y-M_PyyOhYEryQ code: gmfx 
   
   Test performance: \
